@@ -9,10 +9,18 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: darkgreen;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgreen;
+    color: white;
+    margin: 5px;
+    padding: 5px;
 }
 
 nav ul {
@@ -30,16 +38,15 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 8px 16px;
-    background-color: #444;
+    background-color: darkgreen;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: darkgreen
 }
 
-h1,
 h2 {
-    color: #333;
+    color: black;
 }
 
 section {
