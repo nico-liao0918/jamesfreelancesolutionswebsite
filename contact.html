@@ -15,13 +15,20 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h1>Welcome to James Freelancing Solutions</h1>
-            <p>Your one-stop shop for web development, hosting, virtual assistance, and more!</p>
+            <h1>Contact Us</h1>
         </header>
         <section>
-            <h2>Our Services</h2>
-            <p>Explore a wide range of professional services tailored to your needs.</p>
-            <a href="services.html" class="btn">View Services</a>
+            <h2>Get in Touch</h2>
+            <p>For any inquiries, feel free to reach out to us via the contact form below:</p>
+            <form action="https://formspree.io/f/mldeerno" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </section>
         <footer>
             <p>Copyright &copy; 2024 James Freelancing Solutions. All Rights Reserved.</p>
